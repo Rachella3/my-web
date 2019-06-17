@@ -1,0 +1,123 @@
+body{
+
+}
+
+section{
+height: 100vh;
+font-size: 3em;
+font-family: sans-serif;
+padding: 1%;
+margin-top: 1%;
+}	
+
+section > div{
+height: 100%;
+width: 30%;
+margin: 1%;
+border: 1px solid grey;
+background: pink;
+display: inline;
+
+} 
+
+.section_1 {
+
+background-color: yellow;
+background-image: url('./background.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+text-align:center;
+
+}
+
+
+.logo {
+    height: 15%;
+    width: 15%;
+    float: left;
+    margin-top: -5%;
+}
+
+.header-text {
+    color: white;
+    text-align:center;
+    margin-top: 20%;
+}
+
+.header-description{
+    color: white;
+    text-align: center;
+}
+
+
+.section_2 {
+background-image: url("./drugs.jpg");
+background-size: contain;
+background-repeat: no-repeat; 
+text-align: center;   
+height: 500px;      
+}
+
+.body-text{
+    text-justify: auto;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right:10%; 
+}
+
+.header-about {
+    margin-left: 50%;
+}
+
+
+.about-text {
+    text-justify: auto;
+    justify-content: center;
+    margin-left: 50%;
+
+}
+
+.section_3{
+  
+background-color: green;   
+text-align: center;
+height: 500px;      
+}
+
+.section_4{
+
+background-color: grey;     
+height: 500px;       
+margin: 0px;
+padding: 0px;
+}
+
+.section_5{
+
+background-color: purple;   
+text-align: center;
+height: 1300px;         
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .fields {
+      width: 50%;
+      margin-left: 20%;
+  }
